@@ -15,12 +15,12 @@ All models are trained on 8 Nvidia A100 GPUs. For example, training a DualFormer
 
 ##  Data Preparation
 
-Please first see [data_preparation.md](https://github.com/open-mmlab/mmaction2/blob/master/docs/en/data_preparation.md) for a general knowledge of data preparation.
+Please first see [data_preparation.md](https://github.com/open-mmlab/mmaction2/blob/master/docs/data_preparation.md) for a general knowledge of data preparation.
 
 - For **Kinetics-400/600**, as these are dynamic datasets (videos may be removed from YouTube), we employ [this repo](https://github.com/cvdfoundation/kinetics-dataset) to download the original files and the annotatoins. Only a few number of corrupted videos are removed (around 50).
 - For other datasets, i.e., **HMDB-51, UCF-101 and Diving-48**, we use the data downloader provided by mmaction2 as aforementioned.
 
-The full supported datasets are listed below (more details in [supported_datasets.md](https://github.com/open-mmlab/mmaction2/tree/master/docs/en/supported_datasets.md)):
+The full supported datasets are listed below (more details in [supported_datasets.md](https://github.com/open-mmlab/mmaction2/tree/master/docs/supported_datasets.md)):
 
 <table style="margin-left:auto;margin-right:auto;font-size:1.3vw;padding:3px 5px;text-align:center;vertical-align:center;">
   <tr>
